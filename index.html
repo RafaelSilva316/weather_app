@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <form action="">
+      <div class="field-box">
+        <label for="city">Search City:</label>
+        <input type="text" id="city" name="city" required />
+        <span class="err-msg"></span>
+        <button id="submit-btn" class="form-btn">Find Weather</button>
+      </div>
+    </form>
+
+    <div class="current-weather-grid">
+      <div class="temperature-grid">
+        <p class="current-temp">--</p>
+        <p class="current-feels">feels like: <span></span></p>
+        <p class="current-humidity">humidity: <span></span></p>
+      </div>
+      <div class="description-grid">
+        <p class="current-wind">wind: <span></span></p>
+        <p class="current-precipitation">pressure: <span></span></p>
+        <p class="current-cloudy">description: <span></span></p>
+      </div>
+    </div>
+
+    <div class="five-day-grid">
+      <div class="five-day-card">
+        <p class="day-card-date">DATE</p>
+        <p class="day-card-high">High: <span></span></p>
+        <p class="day-card-low">Low: <span></span></p>
+        <p class="day-card-precipitation">Prec: <span></span></p>
+        <p class="day-card-description">Desc: <span></span></p>
+      </div>
+
+      <div class="five-day-card">
+        <p class="day-card-date">DATE</p>
+        <p class="day-card-high">High: <span></span></p>
+        <p class="day-card-low">Low: <span></span></p>
+        <p class="day-card-precipitation">Prec: <span></span></p>
+        <p class="day-card-description">Desc: <span></span></p>
+      </div>
+
+      <div class="five-day-card">
+        <p class="day-card-date">DATE</p>
+        <p class="day-card-high">High: <span></span></p>
+        <p class="day-card-low">Low: <span></span></p>
+        <p class="day-card-precipitation">Prec: <span></span></p>
+        <p class="day-card-description">Desc: <span></span></p>
+      </div>
+
+      <div class="five-day-card">
+        <p class="day-card-date">DATE</p>
+        <p class="day-card-high">High: <span></span></p>
+        <p class="day-card-low">Low: <span></span></p>
+        <p class="day-card-precipitation">Prec: <span></span></p>
+        <p class="day-card-description">Desc: <span></span></p>
+      </div>
+
+      <div class="five-day-card">
+        <p class="day-card-date">DATE</p>
+        <p class="day-card-high">High: <span></span></p>
+        <p class="day-card-low">Low: <span></span></p>
+        <p class="day-card-precipitation">Prec: <span></span></p>
+        <p class="day-card-description">Desc: <span></span></p>
+      </div>
+    </div>
+  </body>
+</html>
